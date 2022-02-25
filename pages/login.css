@@ -1,0 +1,64 @@
+.login-container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 4rem;
+    text-align: center;
+    flex-direction: row;
+}
+.login-card{
+     width: 20rem;
+     border: 1px solid #ccc;
+     height: 25rem;
+     padding: 1rem;
+}
+.bottom-card{
+width: 20rem;
+margin-top: 1rem;
+padding: 1rem;
+border: 1px solid #ccc;
+}
+.login-card Image{
+    width: 5%;
+}
+.carbg{
+  background: url('../pages/assets/car.png');
+  width: 100%;
+  height: 590px;
+  background-size: cover;
+  width: 441px;
+  position: relative;
+}
+.car{
+  height: 422px;
+  position: absolute;
+  width: 241px;
+  top: 90px;
+  left: 143px;
+  
+}
+@media only screen and(max-width:500px) {
+.login-card{
+    width: 100%;
+}
+.bottom-card{
+    width: 100%;
+  }
+  .carbg{
+    display: none;
+  }
+}
+@media only screen and(max-width:800px) {
+  .login-card{
+    width: 15rem;
+  }
+  .bottom-card{
+    width: 15rem;
+  }
+}
+@media only screen and(max-width:700px) {
+    .carbg{
+      display: none;
+    }
+  }
+  
